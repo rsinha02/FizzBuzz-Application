@@ -19,4 +19,11 @@ public class FizzBuzzTest {
 
 	}
 
+	@Test
+	public void fizzTestWhenUserInputsThree() 
+	{
+		Assert.assertEquals("Fizz",fizzBuzz.fizzBuzzConvertor(3));
+
+	}
+
 }

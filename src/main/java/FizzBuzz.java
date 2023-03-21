@@ -9,10 +9,13 @@ public class FizzBuzz {
 	{
 		if(integerTobeChecked==1)
 			return ONE;
-	    
+
 		if(integerTobeChecked==2)
-		 return TWO;
-		
+			return TWO;
+
+		if(integerTobeChecked==3)
+			return "Fizz";
+
 		return String.valueOf(integerTobeChecked);
 
 	}
