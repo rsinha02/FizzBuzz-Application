@@ -2,6 +2,7 @@
 public class FizzBuzz {
 
 
+	private static final String TWO = "2";
 	private static final String ONE = "1";
 
 	public String fizzBuzzConvertor(int integerTobeChecked)
@@ -10,7 +11,7 @@ public class FizzBuzz {
 			return ONE;
 	    
 		if(integerTobeChecked==2)
-		 return "2";
+		 return TWO;
 		
 		return String.valueOf(integerTobeChecked);
 
