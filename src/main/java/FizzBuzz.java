@@ -17,7 +17,7 @@ public class FizzBuzz {
 		if(integerTobeChecked==3)
 			return FIZZ;
 
-		return String.valueOf(integerTobeChecked);
+		return Integer.toString(integerTobeChecked);
 
 	}
 
